@@ -51,33 +51,39 @@ let credentialsFile = process.argv[2];
     await tab.waitForSelector("#btnPropertySearch");                                        // property search
     await navigationHelper(tab, "#btnPropertySearch");
 
-    let  properties = Array.from(document.querySelectorAll('div[data-label="SEARCH"] > div.srp'));
-    properties.map(property => {
-        let propertyName = property.querySelector('table h2').innerText;
-        let societyName = property.querySelector('table #srp_tuple_society_heading').innerText;
-        let price = property.querySelector('table #srp_tuple_price').innerText;
-        let description = property.querySelector('table #srp_tuple_description').innerText;
-        return {
-        propertyName,
-        societyName,
-        price,
-        description
-    }
-    })
+    let result = await tab.evaluate(() => {
+		let properties = Array.from(
+			document.querySelectorAll('.flex.relative.clearfix.m-srp-card__container')
+		);
+		return properties.map((property) => {
+			let propertyName = property.querySelector(".m-srp-card__title__bhk").innerText;
+			let societyName = property.querySelector(
+				".m-srp-card__title"
+			).innerText;
+			let price = property.querySelector(".m-srp-card__price").innerText;
+			let description = property.querySelector(".m-srp-card__description")
+				.innerText;
+			return {
+				propertyName,
+				societyName,
+				price,
+				description,
+			};
+		});
+	});
+
+	console.log(result);
 
     let idx = 0
     do {
         let allproperties = await tab.$$(".flex.relative.clearfix.m-srp-card__container");
-        console.log("2");
 
         let cProperty = allproperties[idx];
-        console.log("3");
+
         await tab.waitForSelector(".m-srp-card__title");
         let cPropertyClick = await cProperty.$(".m-srp-card__title");
-        console.log("4");
 
-        await cPropertyClick.click({ delay: 300 });
-        
+        await cPropertyClick.click({ delay: 300 });        
         idx++;
         
     } while (idx < 10)
@@ -88,4 +94,3 @@ async function navigationHelper(tab, selector) {
         waitUntil: "networkidle2"
     }), tab.click(selector)]);
 }
-
