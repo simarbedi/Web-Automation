@@ -100,21 +100,21 @@ let credentialsFile = process.argv[2];
 	console.log(result);
 
 	let idx = 0;
-	// do {
-	//     let allproperties = await tab.$$("div[data-label='SEARCH']> div.srp");
-	//     console.log("2");
+	do {
+	    let allproperties = await tab.$$("div[data-label='SEARCH']> div.srp");
+	    console.log("2");
 
-	//     let cProperty = allproperties[idx];
-	//     console.log("3");
-	//     await tab.waitForSelector(".srpTuple__tupleDetails ");
-	//     let cPropertyClick = await cProperty.$(".srpTuple__tupleDetails ");
-	//     console.log("4");
+	    let cProperty = allproperties[idx];
+	    console.log("3");
+	    await tab.waitForSelector(".srpTuple__tupleDetails ");
+	    let cPropertyClick = await cProperty.$(".srpTuple__tupleDetails ");
+	    console.log("4");
 
-	//     await cPropertyClick.click({ delay: 300 });
+	    await cPropertyClick.click({ delay: 300 });
 
-	//     idx++;
+	    idx++;
 
-	// } while (idx < 10)
+	} while (idx < 10)
 })();
 
 async function navigationHelper(tab, selector) {
