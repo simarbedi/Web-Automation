@@ -1,15 +1,57 @@
 [
     {
-        "propertyName": "3 BHK Residential Apartment in Sector-84 Gurgaon",
-        "societyName": "SS The Coralwood",
-        "price": "₹ 93 Lac\n₹ 4,134/sq.ft.",
-        "description": "This is a meticulously designed 3 bhk resale apartment located in sector-84"
+        "propertyName": "4 BHK Residential Apartment in Sector-70 Gurgaon",
+        "societyName": "Tulip Ivory",
+        "price": "₹ 1.2 Cr\n₹ 5,375/sq.ft.",
+        "description": "This is a meticulously designed 4 bhk resale apartment located in sector-70"
     },
     {
-        "propertyName": "3 BHK Residential Apartment in Sector-106 Gurgaon",
-        "societyName": "Paras Dews",
-        "price": "₹ 85 Lac\n₹ 4,829/sq.ft.",
-        "description": "A beautiful 3 bhk apartment in sector-106, gurgaon. The property is a part"
+        "propertyName": "3 BHK Residential Apartment in Sector-62 Gurgaon",
+        "societyName": "Conscient Heritage One",
+        "price": "₹ 1.6 Cr\n₹ 8,016/sq.ft.",
+        "description": "A 3 bhk flat is available for sale in gurgaon sector-62. This north facing"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-79 Gurgaon",
+        "societyName": "Godrej Aria",
+        "price": "₹ 1.3 Cr\n₹ 5,985/sq.ft.",
+        "description": "Godrej aria in sector79 gurgaon, gurgaon by godrej properties and rizon dev"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "Chintels Paradiso",
+        "price": "₹ 1.9 - 2.2 Cr\n₹ 7,250/sq.ft.",
+        "description": "Chintels paradiso in sector109 gurgaon, gurgaon by chintels india is a resi"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "Chintels Paradiso",
+        "price": "₹ 1.2 - 1.4 Cr\n₹ 7,250/sq.ft.",
+        "description": "Chintels paradiso in sector109 gurgaon, gurgaon by chintels india is a resi"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-81 Gurgaon",
+        "societyName": "DLF The Ultima",
+        "price": "₹ 1.7 Cr\n₹ 8,226/sq.ft.",
+        "description": "Dlf the ultima in sector81 gurgaon, gurgaon by dlf builders is a residentia"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-69 Gurgaon",
+        "societyName": "Tulip Violet",
+        "price": "₹ 1.3 Cr\n₹ 6,965/sq.ft.",
+        "description": "Tulip violet in sector-69 gurgaon, gurgaon by tulip infratech is a resident"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "Chintels Serenity",
+        "price": "₹ 1.6 - 1.8 Cr\n₹ 7,750/sq.ft.",
+        "description": "Chintels serenity in sector109 gurgaon, gurgaon by chintels india is a resi"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-89 Gurgaon",
+        "societyName": "Tulip Ace",
+        "price": "₹ 1.1 Cr\n₹ 3,960/sq.ft.",
+        "description": "Tulip ace in sector89 gurgaon, gurgaon by tulip infratech is a residential"
     },
     {
         "propertyName": "3 BHK Residential Apartment in Sector-89 Gurgaon",
@@ -18,9 +60,81 @@
         "description": "Tulip ace in sector89 gurgaon, gurgaon by tulip infratech is a residential"
     },
     {
+        "propertyName": "3 BHK Residential Apartment in Sector-104 Gurgaon",
+        "societyName": "Puri Emerald Bay",
+        "price": "₹ 1.5 Cr\n₹ 6,408/sq.ft.",
+        "description": "The apartments boast of an innovative design and high-End premium specifica"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-52 Gurgaon",
+        "societyName": "Ardee City",
+        "price": "₹ 1.3 Cr\n₹ 6,250/sq.ft.",
+        "description": "Residential apartment for sale in a prime locality of gurugram."
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-107 Gurgaon",
+        "societyName": "M3M Woodshire",
+        "price": "₹ 1.3 Cr\n₹ 5,062/sq.ft.",
+        "description": "This is a meticulously designed 4 bhk resale apartment located in sector-10"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-111 Gurgaon",
+        "societyName": "Puri Diplomatic Greens",
+        "price": "₹ 1.4 Cr\n₹ 8,090/sq.ft.",
+        "description": "Diplomatic greens ensures the world is indeed your oyster. The property's v"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-86 Gurgaon",
+        "societyName": "Microtek Greenburg",
+        "price": "₹ 1.3 - 1.5 Cr\n₹ 6,889/sq.ft.",
+        "description": "Microtek greenburg in sector-86 gurgaon, gurgaon by microtek infrastructure"
+    },
+    {
+        "propertyName": "3 BHK Independent Builder Floor in DLF CITY PHASE 2",
+        "societyName": "Top Class interior New",
+        "price": "₹ 1.9 Cr\n₹ 10,077/sq.ft.",
+        "description": "100% genuine photographs. All floors available. Newly constructed building"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-86 Gurgaon",
+        "societyName": "Microtek Greenburg",
+        "price": "₹ 1.8 Cr\n₹ 6,050/sq.ft.",
+        "description": "Microtek greenburg in sector86 gurgaon, gurgaon by microtek infrastructures"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-107 Gurgaon",
+        "societyName": "M3M Woodshire",
+        "price": "₹ 1.3 - 1.3 Cr\n₹ 4,990/sq.ft.",
+        "description": "M3m woodshire in sector-107 gurgaon, gurgaon by m3m india is a residential"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "ATS Kocoon",
+        "price": "₹ 1.1 Cr\n₹ 6,591/sq.ft.",
+        "description": "3 bhk resale flat is available in the promising locality of sector-109, gur"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "ATS Tourmaline",
+        "price": "₹ 1.2 - 1.8 Cr\n₹ 7,200/sq.ft.",
+        "description": "Ats tourmaline in sector-109 gurgaon, gurgaon by ats builders is a resident"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-102 Gurgaon",
+        "societyName": "Adani M2K Oyster Grande",
+        "price": "₹ 1.3 Cr\n₹ 5,196/sq.ft.",
+        "description": "Adani oyster grande is a project developed by adani m2k projects llp. The p"
+    },
+    {
         "propertyName": "3 BHK Residential Apartment in Sector-107 Gurgaon",
         "societyName": "M3M Woodshire",
         "price": "₹ 81.0 - 81.0 Lac\n₹ 1,715/sq.ft.",
+        "description": "M3m woodshire in sector-107 gurgaon, gurgaon by m3m india is a residential"
+    },
+    {
+        "propertyName": "4 BHK Residential Apartment in Sector-107 Gurgaon",
+        "societyName": "M3M Woodshire",
+        "price": "₹ 1.3 - 1.3 Cr\n₹ 4,990/sq.ft.",
         "description": "M3m woodshire in sector-107 gurgaon, gurgaon by m3m india is a residential"
     },
     {
@@ -30,159 +144,45 @@
         "description": "Eldeco accolade in sohna, gurgaon by eldeco group india is a residential pr"
     },
     {
+        "propertyName": "3 BHK Residential Apartment in Sector-111 Gurgaon",
+        "societyName": "Puri Diplomatic Greens",
+        "price": "₹ 1.7 Cr\n₹ 7,833/sq.ft.",
+        "description": "Address: Sector-111 Gurgaon, Sector-111 Gurgaon, Gurgaon, Haryana Diplomati"
+    },
+    {
+        "propertyName": "3 BHK Independent Builder Floor in DLF CITY PHASE 2",
+        "societyName": "J Block new FAR Stilt Lift",
+        "price": "₹ 1.7 Cr\n₹ 9,044/sq.ft.",
+        "description": "For sale 215 sqyrds brand new builder floor with stilt parking and lift in"
+    },
+    {
+        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
+        "societyName": "Chintels Serenity",
+        "price": "₹ 1.6 Cr\n₹ 6,737/sq.ft.",
+        "description": "3 bhk resale flat is available in the promising locality of sector-109, gur"
+    },
+    {
         "propertyName": "3 BHK Residential Apartment in Sector-86 Gurgaon",
         "societyName": "Microtek Greenburg",
         "price": "₹ 85.8 Lac - 1.3 Cr\n₹ 5,800/sq.ft.",
         "description": "Microtek greenburg in sector86 gurgaon, gurgaon by microtek infrastructures"
     },
     {
-        "propertyName": "3 BHK Residential Apartment in Sohna",
-        "societyName": "Eldeco Accolade",
-        "price": "₹ 69.2 - 83.9 Lac\n₹ 3,956/sq.ft.",
-        "description": "Eldeco accolade in sohna, gurgaon by eldeco group india is a residential pr"
+        "propertyName": "3 BHK Residential Apartment in Sector-107 Gurgaon",
+        "societyName": "M3M Woodshire",
+        "price": "₹ 1.0 Cr\n₹ 5,610/sq.ft.",
+        "description": "Exclusive deal :- 1943 sq.Ft. 3 bhk ready to move with luxury specification"
     },
     {
-        "propertyName": "3 BHK Residential Apartment in Sector-109 Gurgaon",
-        "societyName": "Chintels Paradiso",
-        "price": "₹ 1 Cr\n₹ 5,603/sq.ft.",
-        "description": "3 bhk resale flat is available in the promising locality of sector-109, gur"
-    },
-    {
-        "propertyName": "3 BHK Independent Builder Floor in Palam Vihar",
+        "propertyName": "3 BHK Independent Builder Floor in DLF CITY PHASE 2",
         "societyName": "",
-        "price": "₹ 80 Lac\n₹ 6,666/sq.ft.",
-        "description": "Surendra sagar homes in palam vihar sector 2 gurugram near celebrity homes"
+        "price": "₹ 1.9 Cr\n₹ 9,476/sq.ft.",
+        "description": "This is brand new builder floor made on 320 sq yard plot in dlf phase 2 gur"
     },
     {
-        "propertyName": "3 BHK Residential Apartment in Sector-90 Gurgaon",
-        "societyName": "DLF New Town Heights 1",
-        "price": "₹ 80.0 Lac - 1.2 Cr\n₹ 5,212/sq.ft.",
-        "description": "Dlf new town heights 1 in sector90 gurgaon, gurgaon by dlf builders is a re"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-84 Gurgaon",
-        "societyName": "SS The Coralwood",
-        "price": "₹ 99 Lac\n₹ 4,400/sq.ft.",
-        "description": "Ss the coralwood in sector84 gurgaon, gurgaon by ss group is a residential"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-107 Gurgaon",
-        "societyName": "M3M Woodshire",
-        "price": "₹ 81.0 Lac\n₹ 3,431/sq.ft.",
-        "description": "M3m woodshire in sector-107 gurgaon, gurgaon by m3m india is a residential"
-    },
-    {
-        "propertyName": "3 BHK Independent Builder Floor in Palam Vihar",
+        "propertyName": "3 BHK Independent Builder Floor in DLF CITY PHASE 2",
         "societyName": "",
-        "price": "₹ 80.5 Lac\n₹ 6,708/sq.ft.",
-        "description": "Surendra sagar homes in palam vihar sector 2 gurugram near celebrity homes"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-84 Gurgaon",
-        "societyName": "Alpha Corp GurgaonOne 84",
-        "price": "₹ 99 Lac\n₹ 5,043/sq.ft.",
-        "description": "A beautiful 3 bhk apartment in sector-84, gurgaon. The property is a part o"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sohna",
-        "societyName": "Ashiana Anmol",
-        "price": "₹ 94.6 Lac Onwards",
-        "description": "Ashiana anmol in sohna, gurgaon by ashiana housing is a residential project"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-102 Gurgaon",
-        "societyName": "Adani M2K Oyster Grande",
-        "price": "₹ 99 Lac\n₹ 5,826/sq.ft.",
-        "description": "This is a meticulously designed 3 bhk resale apartment located in sector-10"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-106 Gurgaon",
-        "societyName": "Paras Dews",
-        "price": "₹ 98 Lac - 1.1 Cr\n₹ 5,885/sq.ft.",
-        "description": "Paras dews in sector106 gurgaon, gurgaon by paras group builders is a resid"
-    },
-    {
-        "propertyName": "3 BHK Independent Builder Floor in Krishna Colony",
-        "societyName": "Shaurya Homes",
-        "price": "₹ 52 Lac\n₹ 4,727/sq.ft.",
-        "description": "Most new luxury builder floor 3 bhk availble in krishna colony ready to mov"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-81 Gurgaon",
-        "societyName": "Bestech Park View Ananda",
-        "price": "₹ 85.5 - 94.1 Lac\n₹ 5,200/sq.ft.",
-        "description": "Bestech park view ananda in sector-81 gurgaon, gurgaon by bestech group bui"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-37C Gurgaon",
-        "societyName": "Corona Optus",
-        "price": "₹ 85 Lac - 1.1 Cr\n₹ 4,909/sq.ft.",
-        "description": "Corona optus in sector37c gurgaon, gurgaon by corona and optus group is a r"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-103 Gurgaon",
-        "societyName": "Indiabulls Centrum Park",
-        "price": "₹ 77 - 86 Lac\n₹ 4,300/sq.ft.",
-        "description": "Indiabulls centrum park in sector-103 gurgaon, gurgaon by indiabulls builde"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-102 Gurgaon",
-        "societyName": "Adani M2K Oyster Grande",
-        "price": "₹ 1 - 1.3 Cr\n₹ 5,519/sq.ft.",
-        "description": "Adani m2k oyster grande in sector102 gurgaon, gurgaon by adani m2k projects"
-    },
-    {
-        "propertyName": "4 BHK Residential Apartment in Sector-37D Gurgaon",
-        "societyName": "Ramprastha The Edge Towers",
-        "price": "₹ 80 Lac\n₹ 3,347/sq.ft.",
-        "description": "Ramprastha the edge towers in sector37d gurgaon, gurgaon by ramprastha buil"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-84 Gurgaon",
-        "societyName": "Alpha Corp GurgaonOne 84",
-        "price": "₹ 94 Lac - 1.0 Cr\n₹ 4,734/sq.ft.",
-        "description": "Alpha corp gurgaonone 84 in sector84 gurgaon, gurgaon by alpha corp is a re"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-106 Gurgaon",
-        "societyName": "Paras Dews",
-        "price": "₹ 93 Lac\n₹ 5,585/sq.ft.",
-        "description": "This exclusive residential community will open the doors to a new style of"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-90 Gurgaon",
-        "societyName": "DLF New Town Heights 1",
-        "price": "₹ 84.4 Lac - 1.3 Cr\n₹ 5,500/sq.ft.",
-        "description": "Dlf new town heights 1 in sector90 gurgaon, gurgaon by dlf builders is a re"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-86 Gurgaon",
-        "societyName": "Microtek Greenburg",
-        "price": "₹ 81.4 Lac - 1.2 Cr\n₹ 5,500/sq.ft.",
-        "description": "Microtek greenburg in sector86 gurgaon, gurgaon by microtek infrastructures"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-83 Gurgaon",
-        "societyName": "Emaar Mgf Palm Gardens",
-        "price": "₹ 94.6 Lac - 1.0 Cr\n₹ 5,500/sq.ft.",
-        "description": "Emaar mgf palm gardens in sector83 gurgaon, gurgaon by emaar india is a res"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-84 Gurgaon",
-        "societyName": "Alpha Corp GurgaonOne 84",
-        "price": "₹ 94 Lac\n₹ 4,788/sq.ft.",
-        "description": "Alpha corp gurgaonone 84 in sector84 gurgaon, gurgaon by alpha corp is a re"
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-107 Gurgaon",
-        "societyName": "M3M Woodshire",
-        "price": "₹ 1 Cr\n₹ 4,235/sq.ft.",
-        "description": "This is a freehold property. The flat is spacious and is ready to move in."
-    },
-    {
-        "propertyName": "3 BHK Residential Apartment in Sector-107 Gurgaon",
-        "societyName": "M3M Woodshire",
-        "price": "₹ 1 Cr₹ 4,235/sq.ft.",
-        "description": "This is a freehold property. The flat is spacious and is ready to move in. "
+        "price": "₹ 1.9 Cr₹ 9,476/sq.ft.",
+        "description": "This is brand new builder floor made on 320 sq yard plot in dlf phase 2 gur"
     }
 ]
