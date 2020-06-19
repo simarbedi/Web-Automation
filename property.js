@@ -51,6 +51,20 @@ let credentialsFile = process.argv[2];
     await tab.waitForSelector("#btnPropertySearch");                                        // property search
     await navigationHelper(tab, "#btnPropertySearch");
 
+    let  properties = Array.from(document.querySelectorAll('div[data-label="SEARCH"] > div.srp'));
+    properties.map(property => {
+        let propertyName = property.querySelector('table h2').innerText;
+        let societyName = property.querySelector('table #srp_tuple_society_heading').innerText;
+        let price = property.querySelector('table #srp_tuple_price').innerText;
+        let description = property.querySelector('table #srp_tuple_description').innerText;
+        return {
+        propertyName,
+        societyName,
+        price,
+        description
+    }
+    })
+
     let idx = 0
     do {
         let allproperties = await tab.$$(".flex.relative.clearfix.m-srp-card__container");

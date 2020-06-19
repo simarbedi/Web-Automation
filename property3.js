@@ -76,23 +76,43 @@ let credentialsFile = process.argv[2];
 
      await tab.waitForSelector("#submit_query");                                        // property search
      await navigationHelper(tab, "#submit_query");
+    
+    let properties = await tab.evaluate(()=>{return document.querySelectorAll('div[data-label="SEARCH"] > div.srp')});
+    console.log(properties);
+    
+    let result = await tab.evaluate((properties)=>{
+        properties.map(property => {
+        let propertyName = property.querySelector('table h2').innerText;
+        let societyName = property.querySelector('table #srp_tuple_society_heading').innerText;
+        let price = property.querySelector('table #srp_tuple_price').innerText;
+        let description = property.querySelector('table #srp_tuple_description').innerText;
+        return {
+        propertyName,
+        societyName,
+        price,
+        description
+    }
+    }
+    )},properties);
+
+    console.log(result);
 
     let idx = 0
-    do {
-        let allproperties = await tab.$$("div[data-label='SEARCH']> div.srp");
-        console.log("2");
+    // do {
+    //     let allproperties = await tab.$$("div[data-label='SEARCH']> div.srp");
+    //     console.log("2");
 
-        let cProperty = allproperties[idx];
-        console.log("3");
-        await tab.waitForSelector(".srpTuple__tupleDetails ");
-        let cPropertyClick = await cProperty.$(".srpTuple__tupleDetails ");
-        console.log("4");
+    //     let cProperty = allproperties[idx];
+    //     console.log("3");
+    //     await tab.waitForSelector(".srpTuple__tupleDetails ");
+    //     let cPropertyClick = await cProperty.$(".srpTuple__tupleDetails ");
+    //     console.log("4");
 
-        await cPropertyClick.click({ delay: 300 });
+    //     await cPropertyClick.click({ delay: 300 });
         
-        idx++;
+    //     idx++;
         
-    } while (idx < 10)
+    // } while (idx < 10)
 })();
 
 async function navigationHelper(tab, selector) {
