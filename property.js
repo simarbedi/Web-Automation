@@ -74,19 +74,15 @@ let credentialsFile = process.argv[2];
 
 	console.log(result);
 
-    let idx = 0
-    do {
-        let allproperties = await tab.$$(".flex.relative.clearfix.m-srp-card__container");
+    await fs.promises.writeFile(
+		"LatestProperty.JSON",
+		JSON.stringify(result, null, 4)
+	);
+  
 
-        let cProperty = allproperties[idx];
-
-        await tab.waitForSelector(".m-srp-card__title");
-        let cPropertyClick = await cProperty.$(".m-srp-card__title");
-
-        await cPropertyClick.click({ delay: 300 });        
-        idx++;
-        
-    } while (idx < 10)
+    console.log("All Properties processed");
+    
+    
 })();
 
 async function navigationHelper(tab, selector) {
