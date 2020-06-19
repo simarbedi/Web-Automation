@@ -21,11 +21,16 @@ let credentialsFile = process.argv[2];
         waitUntil: "networkidle2"
     });
 
-    await tab.waitForSelector("#keyword");                                                   // property location
-    await tab.type("#keyword",location,{delay:100});
+    await tab.waitForSelector("input.AS_searchInp.ui-autocomplete-input");                                                   // property location
+    await tab.type("input.AS_searchInp.ui-autocomplete-input",location,{delay:100});
 
-    await tab.waitForSelector("#propType_holder_div_buy .propertyTypeArrow");                 // property type arrow
-    await tab.click("#propType_holder_div_buy .propertyTypeArrow");
+    await page.keyboard.press('Enter');
+
+    await tab.waitForSelector("a#home-searchbtn-express-search");                                        // property search
+    await navigationHelper(tab, "a#home-searchbtn-express-search")
+
+    await tab.waitForSelector("#propType_holder_div_buy .propertyTypeArrow")                 // property type arrow
+    await tab.click("#propType_holder_div_buy .propertyTypeArrow")
 
     await tab.waitForSelector("#propType_buy_span_10002_10003_10021_10022");                 // property type flats option 
     await tab.click("#propType_buy_span_10002_10003_10021_10022");
@@ -43,13 +48,12 @@ let credentialsFile = process.argv[2];
     await tab.click("#buy_budget_holder .propertyTypeArrow.toggleBudgetList");
 
     await tab.waitForSelector(".rangeOption #rangeMinLinkbudgetBuyinput");                   // minimum budget
-    await tab.type(".rangeOption #rangeMinLinkbudgetBuyinput",minValue,{delay:100});
+    await tab.type(".rangeOption #rangeMinLinkbudgetBuyinput",minValue,{delay:100})
 
     await tab.waitForSelector(".rangeOption #rangeMaxLinkbudgetBuyinput");                   // maximum budget
-    await tab.type(".rangeOption #rangeMaxLinkbudgetBuyinput",maxValue,{delay:100});
+    await tab.type(".rangeOption #rangeMaxLinkbudgetBuyinput",maxValue,{delay:100})
 
-    await tab.waitForSelector("#btnPropertySearch");                                        // property search
-    await navigationHelper(tab, "#btnPropertySearch");
+    
 
     let idx = 0
     do {
