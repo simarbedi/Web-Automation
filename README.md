@@ -1,4 +1,15 @@
-## Extra Work
+## Web Automation for Real Estate Filtering 
+[![](https://img.shields.io/badge/author-@SimarBedi-blue.svg?style=flat)](https://twitter.com/simarpreet_bedi)
 
-* this repo is for extra work done by me.
-* this is just for experimenting purpose.
+### This is the code for filtering real estate filteration using puppeteer.
+* This uses puppeteer for filtering out properties from websites such as:
+* *99acres.com*
+* *magicbricks.com*
+
+### Puppeteer 
+Puppeteer is a Node library which provides a high-level API to control Chromium or Chrome over the DevTools Protocol.
+
+### Running the code
+* for running the first property site filtering : go1.bat
+
+* for running the second property site filtering : go2.bat
